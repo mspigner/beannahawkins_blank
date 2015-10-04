@@ -13,7 +13,7 @@
 
       <header id="header" class="header">
         <!--Site title or logo.-->
-        {.section website}
+<!--         {.section website} -->
 
           <h1 class="site-title"> TESTING TESTING TESTING TESTING TESTING TESTING
             <a href="/">
@@ -25,20 +25,21 @@
             </a>
           </h1>
           
-          <!--Site tagline.-->
-          {.section siteTagLine}
-            <p class="site-tagline">{@}</p>
-          {.end}
+<!--           <!--Site tagline.-->
+<!--           {.section siteTagLine} --> -->
+            <p class="site-tagline">TESTING TESTING TESTING<!-- {@} --></p>
+<!--           {.end} -->
 
-        {.end}
+<!--         {.end} -->
 
         <!--Main navigation.-->
         <squarespace:navigation navigationId="mainNav" template="navigation" />
       </header>
 
       <!--Content injection point.-->
-      <main id="content" class="content" role="main" data-content-field="main-content">
-       {squarespace.main-content}
+      <main id="content" class="content" role="main">
+        HELLO HELLO HELLO TEST TEST TEST
+<!--        {squarespace.main-content} -->
       </main>
 
       <!--Footer with open block field.-->
@@ -52,7 +53,7 @@
     <squarespace:script src="site.js" combo="{.if authenticatedAccount}false{.or}true{.end}" />
 
     <!--Injection point for tracking scripts and user content from the code injection tab.-->
-    {squarespace-footers}
+<!--     {squarespace-footers} -->
     
   </body>
 </html> 
