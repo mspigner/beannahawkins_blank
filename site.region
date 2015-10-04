@@ -17,11 +17,11 @@
 
           <h1 class="site-title"> TESTING TESTING TESTING TESTING TESTING TESTING
             <a href="/">
-              {.section logoImageUrl}
-               <img class="logo" src="{logoImageUrl}?format=original" alt="{siteTitle}" />
+              <!-- {.section logoImageUrl} -->
+               <!-- <img class="logo" src="{logoImageUrl}?format=original" alt="{siteTitle}" />
               {.or}
                 {siteTitle}
-              {.end}
+              {.end} -->
             </a>
           </h1>
           
