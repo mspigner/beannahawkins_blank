@@ -28,7 +28,7 @@
           
           <!--Site tagline.-->
           {.section siteTagLine}
-            <p class="site-tagline">{@}</p>
+            <p class="site-tagline">THIS SHOUDL SAY BREANNA MORRISON </p>
           {.end}
 
         {.end}
