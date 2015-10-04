@@ -16,7 +16,6 @@
         {.section website}
 
           <h1 class="site-title" data-content-field="site-title">
-            THIS SHOULD SAY BREANNA HAWKINS.
             <a href="/">
               {.section logoImageUrl}
                <img class="logo" src="{logoImageUrl}?format=original" alt="{siteTitle}" />
@@ -28,7 +27,7 @@
           
           <!--Site tagline.-->
           {.section siteTagLine}
-            <p class="site-tagline">THIS SHOUDL SAY BREANNA MORRISON </p>
+            <p class="site-tagline">{@}</p>
           {.end}
 
         {.end}
